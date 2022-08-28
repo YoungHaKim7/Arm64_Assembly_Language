@@ -1,5 +1,16 @@
 # Arm64_Assembly_Language
 
+내가 공부하려고 만든 영상
+
+한글강의Assembly언어001_ld_as_C언어\_Assembly언어로 변환 #assembly
+[https://youtu.be/9yt1Enp4EwU](https://youtu.be/9yt1Enp4EwU)
+
+영상 모아 보기
+
+https://youtube.com/playlist?list=PLcMveqN_07mY7DpIaeGGXfnctSwzZSOgG
+
+<hr>
+
 ## arm64 assembly crash course
 
 https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
