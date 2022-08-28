@@ -1,5 +1,14 @@
 # Rust otool test
 
+# rustc main.rs
+```
+$ rustc main.rs
+
+
+$ ls
+main  main.rs
+```
+
 ## otool -tv main
 ```
 $ otool-tv main
