@@ -6,6 +6,20 @@ https://github.com/Siguza/ios-resources/blob/master/bits/arm64.md
 
 <hr>
 
+How register is encoded in an ARM64 mov instruction?
+변환 할 때 조심해야할 사항
+[https://stackoverflow.com/questions/65233207/how-register-is-encoded-in-an-arm64-mov-instruction](https://stackoverflow.com/questions/65233207/how-register-is-encoded-in-an-arm64-mov-instruction)
+
+GNU and LLVM tools get this right: aarch64-linux-gnu-objdump -d shows 528c4102, the 32-bit integer interpretation of the 4 bytes. llvm-objdump -d shows 02 41 8c 52, the raw byte sequence. Both of those are equivalent and not misleading.
+
+But https://armconverter.com/ stupidly groups it up into 02418C52 (in its default "GDB" mode). This is bad. If you wanted to manually encode some AArch64 shellcode, you'd use .long 0x528c4102 (on a little-endian assembler targeting e.g. like x86, AArch64, or whatever) to get a representation of MOVZ W2, #0x6208.
+
+By convention, a single string of digits without spaces has place-values that increase from right to left, and represent a single integer value of some width. It's not you, it's https://armconverter.com/ that's the problem.
+
+armconverter has a "GDB/LLDB" toggle that fixes it to 528C4102 in LLDB mode, which it calls "big endian". But it's not a "big endian" byte sequence, there are no spaces so it's the 32-bit integer value. 02418C52 is the integer you'd get if you interpret the 4 bytes as big-endian (opposite of what an AArch64 CPU does), 528C4102 is the correct little-endian interpretation of those 4 bytes.
+
+I think armconverter is using "big endian" to actually mean "byte reverse before removing spaces between bytes". This is braindead misuse of terminology. Again, both GNU binutils and LLVM disassemblers get this right, the problem is purely armconverter
+
 <br>
 
 ## C to Assembly
