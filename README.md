@@ -34,6 +34,34 @@ $ ld -macosx_version_min 12.0.0 -o fib fib.o -lSystem -syslibroot `xcrun -sdk ma
 
 ```
 
+<br>
+
+<hr>
+
+# C 언어 다르게 Assembly 변환하기
+
+Basic Structure of C Program in Hindi: C Tutorial In Hindi #4
+
+[https://youtu.be/5SIBB589fAg](https://youtu.be/5SIBB589fAg)
+
+main.s --> Assembly file
+
+<br>
+
+```
+
+$ gcc -Wall -save-temps main.c
+
+$ ls
+
+a.out   main.bc main.c  main.i  main.o  main.s
+
+```
+
+<br>
+
+<hr>
+
 otool 활용법 macOS 쓰는 툴
 
 ```
