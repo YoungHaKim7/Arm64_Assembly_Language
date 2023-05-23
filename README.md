@@ -1,3 +1,16 @@
+# [Armv7] CPSR 컨디셔널 비트 확인 디버깅 실습 (TRACE32)
+
+https://youtu.be/CTu7aBbnZyA
+
+#  '디버깅을 통해 배우는 리눅스 커널의 구조와 원리' 책 강의 동영상
+
+https://www.youtube.com/playlist?list=PLRrUisvYoUw9-cTYgkbTbr9f9CpbGdq4F
+
+
+<br>
+
+<hr>
+
 # rust_웹으로 어셈블리 보기Assembly
 
 https://rust.godbolt.org/
