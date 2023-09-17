@@ -1,3 +1,9 @@
+# 겁나게 쉽게 배우는 Arm Assembly | you can learn assembly FAST with this technique (arm64 breakdown) | Low Level Learning
+
+https://youtu.be/vhyettT7sdA?si=LQ2AN5XeS5M8kJJ_
+
+<hr>
+
 # [Armv7] CPSR 컨디셔널 비트 확인 디버깅 실습 (TRACE32)
 
 https://youtu.be/CTu7aBbnZyA
