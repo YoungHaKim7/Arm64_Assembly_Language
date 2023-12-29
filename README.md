@@ -1,3 +1,13 @@
+# Mara Bos
+@m_ou_se
+⚛️📋 I made an overview of the ARMv8 and x86-64 machine instructions for all the common atomic operations:
+
+<p>
+       <img src="https://pbs.twimg.com/media/FhH-RYzWIAE24_v?format=jpg&name=4096x4096" />
+</p>
+
+https://twitter.com/m_ou_se/status/1590333332012662784/photo/1
+
 # 예재로 어셈블리 익히기(arm)
 
 https://github.com/below/HelloSilicon
