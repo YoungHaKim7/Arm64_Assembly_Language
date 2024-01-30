@@ -16,14 +16,14 @@ https://github.com/below/HelloSilicon
 
 https://azeria-labs.com/writing-arm-assembly-part-1/
 
-ARM Assembly Basics Tutorial Series:
-Part 1: Introduction to ARM Assembly
-Part 2: Data Types Registers
-Part 3: ARM Instruction Set
-Part 4: Memory Instructions: Loading and Storing Data
-Part 5: Load and Store Multiple
-Part 6: Conditional Execution and Branching
-Part 7: Stack and Functions
+- ARM Assembly Basics Tutorial Series:
+  - Part 1: Introduction to ARM Assembly
+  - Part 2: Data Types Registers
+  - Part 3: ARM Instruction Set
+  - Part 4: Memory Instructions: Loading and Storing Data
+  - Part 5: Load and Store Multiple
+  - Part 6: Conditional Execution and Branching
+  - Part 7: Stack and Functions
 
 
 - A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography
