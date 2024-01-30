@@ -25,6 +25,11 @@ Part 5: Load and Store Multiple
 Part 6: Conditional Execution and Branching
 Part 7: Stack and Functions
 
+
+- A Guide to ARM64 / AArch64 Assembly on Linux with Shellcodes and Cryptography
+  - https://modexp.wordpress.com/2018/10/30/arm64-assembly/
+
+
 <hr>
 
 # 겁나게 쉽게 배우는 Arm Assembly | you can learn assembly FAST with this technique (arm64 breakdown) | Low Level Learning
