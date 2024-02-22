@@ -1,3 +1,9 @@
+# ARMv8-A Reference Manual
+
+https://developer.arm.com/documentation/ddi0487/ak/
+
+<hr>
+
 # Mara Bos
 @m_ou_se
 ⚛️📋 I made an overview of the ARMv8 and x86-64 machine instructions for all the common atomic operations:
