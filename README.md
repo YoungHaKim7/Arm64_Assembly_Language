@@ -26,6 +26,12 @@ https://rust.godbolt.org/
 
 <hr>
 
+# macOS version history
+
+- https://en.wikipedia.org/wiki/MacOS_version_history
+
+<hr>
+
 # ARMv4 through 7 syntax highlighting for vim
 
 - https://github.com/ARM9/arm-syntax-vim
