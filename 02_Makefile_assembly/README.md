@@ -20,7 +20,7 @@ clean:
 
 # main.asm
 
-```armasm
+```asm
 
 ; 
 ;  Assembler program to print "Hello World!"
