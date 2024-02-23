@@ -1,6 +1,6 @@
 # 웹으로 어셈블리 보기Assembly(ARM binutils)
 
-https://rust.godbolt.org/
+https://assembly.godbolt.org/
 
 <hr>
 
