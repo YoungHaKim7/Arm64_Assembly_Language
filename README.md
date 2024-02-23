@@ -31,6 +31,19 @@ https://rust.godbolt.org/
 - https://en.wikipedia.org/wiki/MacOS_version_history
   - https://github.com/fxcoudert/gfortran-for-macOS/releases
 
+<hr>
+
+# macOS c-liker폴더
+
+- https://forums.developer.apple.com/forums/thread/666700
+
+```
+export LDFLAGS=-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+make  # or cmake .
+```
+
+<hr>
+
 # macOS dev.포럼 궁금한거 해결하기
 
 - https://forums.developer.apple.com/forums/tags/compiler
