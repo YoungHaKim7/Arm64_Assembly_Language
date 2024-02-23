@@ -6,6 +6,9 @@ https://developer.arm.com/documentation/ddi0487/ak/
 
   - https://gist.github.com/alexislours/c7b12c630625db98afbfdf08f7a4ec17
 
+## 어셈블러의 비교
+- https://ko.wikipedia.org/wiki/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC%EC%9D%98_%EB%B9%84%EA%B5%90
+
 <hr>
 
 # Mara Bos
