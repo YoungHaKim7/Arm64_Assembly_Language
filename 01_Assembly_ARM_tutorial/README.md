@@ -2,9 +2,13 @@
 
 https://youtu.be/gfmRrPjnEw4?si=h5otLMPp1bS-malE
 
+<hr>
+
 # Getting Started with Arm Assembly Language(Arm Developer)
 
 - https://developer.arm.com/documentation/107829/0200/Assembly-language-basics
+
+<hr>
 
 # Program 5: Hello World Revisited | Kyle Baldwin
 - https://youtu.be/Gvh9mKpvhKo?si=_XRbOgOjyjaCHSF0
