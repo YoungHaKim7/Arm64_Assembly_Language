@@ -48,6 +48,40 @@ cargo install asm-lsp
 cargo install --git https://github.com/bergercookie/asm-lsp
 ```
 
+# Vim
+- https://github.com/ARM9/arm-syntax-vim
+
+- Installation
+
+- Copy the syntax folder into your ```~/.vim``` folder
+
+- with Plug
+
+```
+Plug 'ARM9/arm-syntax-vim'
+```
+- or with Pathogen
+
+- Clone this repo into your ```~/.vim/bundle``` directory.
+
+```
+git clone https://github.com/ARM9/arm-syntax-vim.git
+```
+
+- Using
+  - In your .vimrc:
+
+```
+au BufNewFile,BufRead *.s,*.S set filetype=arm " arm = armv6/7
+```
+
+- or add this line at the top or bottom of your assembly file(s):
+
+```
+@ vim:ft=armv5
+```
+
+
 <hr>
 
 <hr>
@@ -426,8 +460,4 @@ God-Tier Developer Roadmap | Fireship
 C코드를 ll로 변환 후 Assembly ❤️바꾸는 방법(LLVM&Assembly코드는 M1pro arm64기계 기준임macOS)otool활용
 
 출처: https://economiceco.tistory.com/14882 [경제PLUS:티스토리]
-# Result
 
-```
-
-```
