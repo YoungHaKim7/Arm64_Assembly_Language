@@ -33,6 +33,13 @@
 
 
 # 네오빔(NeoVim)assembly(asm-lsp)
+
+- NeoVim(TSInstall)
+
+```
+:TSInstall asm
+```
+
 - Vim \_ Assembly Highlight Syntax
 ```
 :set ft=nasm  " assembly highlight syntax
