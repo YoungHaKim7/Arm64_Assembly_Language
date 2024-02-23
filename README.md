@@ -24,6 +24,10 @@
 
 - https://github.com/ARM9/arm-syntax-vim
 
+# VSCode Extension(Arm® assembly highlighting for Visual Studio Code)
+
+- https://marketplace.visualstudio.com/items?itemName=dan-c-underwood.arm
+
 <hr>
 
 - Markdown code block keywords used by Discord
