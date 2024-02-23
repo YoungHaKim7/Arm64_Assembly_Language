@@ -20,6 +20,12 @@
 
 <hr>
 
+# ARMv4 through 7 syntax highlighting for vim
+
+- https://github.com/ARM9/arm-syntax-vim
+
+<hr>
+
 - Markdown code block keywords used by Discord
 
   - https://gist.github.com/alexislours/c7b12c630625db98afbfdf08f7a4ec17
