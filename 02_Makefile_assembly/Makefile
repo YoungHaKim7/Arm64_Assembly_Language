@@ -8,7 +8,7 @@ TARGET = ./$(TARGET_FOLDER)
 TARGET_FOLDER = target
 LDFLAGS_COMON_MACOS = -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path` -e _start -arch arm64
 
-MACOS_VERSION = -macosx_version_min 14.0.0
+MACOS_VERSION = -macos_version_min 14.0.0
 
 r:
 		rm -rf $(TARGET_FOLDER)
