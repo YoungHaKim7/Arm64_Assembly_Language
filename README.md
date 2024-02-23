@@ -28,6 +28,9 @@
 
 - https://marketplace.visualstudio.com/items?itemName=dan-c-underwood.arm
 
+  - ASM Code Lens
+    - https://marketplace.visualstudio.com/items?itemName=maziac.asm-code-lens
+
 <hr>
 
 - Markdown code block keywords used by Discord
