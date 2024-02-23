@@ -53,9 +53,12 @@ $ xcode-select --install
 $ sudo xcode-select --reset
 ```
 
-# macOS c-liker폴더
+# macOS c-linking error & 폴더
 
-- https://forums.developer.apple.com/forums/thread/666700
+- Clang linking error MacOS Big Sur
+  - https://forums.developer.apple.com/forums/thread/666700
+
+
 
 ```
 export LDFLAGS=-L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
