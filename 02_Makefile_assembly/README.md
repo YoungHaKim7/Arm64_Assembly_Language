@@ -16,7 +16,7 @@ TARGET = ./$(TARGET_FOLDER)
 TARGET_FOLDER = target
 LDFLAGS_COMON_MACOS = -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path` -e _start -arch arm64
 
-MACOS_VERSION = -macosx_version_min 14.0.0
+MACOS_VERSION = -macos_version_min 14.0.0
 
 r:
 		rm -rf $(TARGET_FOLDER)
@@ -38,7 +38,7 @@ r:
 		rm -rf target
 		mkdir target
 		as -o main.o ./src/main.asm
-		ld -macosx_version_min 14.0.0 -o a.out main.o -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path` -e _start -arch arm64
+		ld -macos_version_min 14.0.0 -o a.out main.o -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path` -e _start -arch arm64
 		mv a.out *.o target/.
 		./target/a.out
 
