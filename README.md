@@ -1,13 +1,26 @@
 # ARMv8-A Reference Manual | 출처: ARM
 
-https://developer.arm.com/documentation/ddi0487/ak/
+- https://developer.arm.com/documentation/ddi0487/ak/
+
+- Arm어셈블리 기초
+  - https://kyuhyuk.kr/article/raspberry-pi/2019/05/15/ARM-Assembly
+
+- ARM 어셈블리 가이드(ARM Assembly Guide 임베디드(2011. 12. 15. 14:12)
+
+  - https://blog.naver.com/gangst11/145839687
+
+  - ARM 어셈블리 가이드(ARM Assembly Guide)
+    - 이 문서는 ARM Cortex A8을 기준으로 ARM Assembly 언어를 사용하는 방법에 대해서 다룹니다.C언어는 기본적으로 안다는 가정하에 ARM 어셈블리 이해를 돕기 위하여 C언어의 문법과 연결시켜 설명을 할 것입니다.
+      - [출처] ARM 어셈블리 가이드(ARM Assembly Guide|작성자 권과장11 https://blog.naver.com/gangst11/145839687
+
+## 어셈블러의 비교
+- https://ko.wikipedia.org/wiki/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC%EC%9D%98_%EB%B9%84%EA%B5%90
+
+<hr>
 
 - Markdown code block keywords used by Discord
 
   - https://gist.github.com/alexislours/c7b12c630625db98afbfdf08f7a4ec17
-
-## 어셈블러의 비교
-- https://ko.wikipedia.org/wiki/%EC%96%B4%EC%85%88%EB%B8%94%EB%9F%AC%EC%9D%98_%EB%B9%84%EA%B5%90
 
 <hr>
 
