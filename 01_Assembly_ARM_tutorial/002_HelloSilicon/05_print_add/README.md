@@ -1,3 +1,8 @@
+# Result
+
+```
+sum 30
+```
 # Arm Assembly
 
 https://smist08.wordpress.com/2021/01/08/apple-m1-assembly-language-hello-world/
@@ -10,32 +15,32 @@ r:
 		rm -rf target
 		mkdir target
 		as -o main.o ./src/main.asm
-		ld -macos_version_min 14.0.0 -o a.out main.o -lSystem -syslibroot `xcrun -sdk macos --show-sdk-path` -e _start -arch arm64
+		ld -macos_version_min 14.0.0 -o a.out main.o -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path` -e _start -arch arm64
 		mv a.out *.o target/.
 		./target/a.out
 
 clean:
-		rm -rf target 
+		rm -rf target
 ```
 
 # main.asm
 
 ```asm
 
-; 
+;
 ;  Assembler program to print "Hello World!"
 ;  to stdout.
-; 
+;
 ;  X0-X2 - parameters to linux function services
 ;  X16 - linux function number
-; 
+;
 .global _start             ;  Provide program starting address to linker
 .align 2
 
 ;  Setup the parameters to print hello world
 ;  and then call Linux to do it.
 
-_start: 
+_start:
     mov X0, #1     ;  1 = StdOut
     adr X1, helloworld ;  string to print
     mov X2, #13     ;  length of our string
@@ -50,5 +55,5 @@ _start:
     svc     0           ;  Call MacOS to terminate the program
 
 helloworld:
-    .ascii  "Hello World!\n"  
+    .ascii  "Hello World!\n"
 ```
