@@ -33,6 +33,26 @@ https://rust.godbolt.org/
 
 <hr>
 
+# xcrun오류 해결 (XCode를 설치해야한다)
+
+- https://www.bpetersen.dk/post/how-to-fix-mac-os-xcrun-error-invalid-active-developer-path-missing-xcrun
+
+```
+xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+```
+
+- Fortunately, there is an easy solution to that — just install, or reconfigure, the Xcode toolkit. You can either download it from the Appstore, from the Apple Developer download section, or you can install it via the Terminal:
+
+```
+$ xcode-select --install
+```
+
+- If you already have it installed and need to reset it, you can do the following (you probably need sudo rights to do that):
+
+```
+$ sudo xcode-select --reset
+```
+
 # macOS c-liker폴더
 
 - https://forums.developer.apple.com/forums/thread/666700
