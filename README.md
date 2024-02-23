@@ -209,17 +209,19 @@ I think armconverter is using "big endian" to actually mean "byte reverse before
 [https://wolchok.org/posts/how-to-read-arm64-assembly-language/](https://wolchok.org/posts/how-to-read-arm64-assembly-language/)
 
 <hr>
+
 <hr>
-<br>
-## C to Assembly
-
-MIT 영상 MIT OpenCourseWare
 
 <br>
+
+# C to Assembly
+
+- MIT 영상 MIT OpenCourseWare
 
 [https://youtu.be/wt7a5BOztuM](https://youtu.be/wt7a5BOztuM)
 
 <br>
+
 <hr>
 
 ### clang 으로 LLVM IR Code 로 우선 변환
