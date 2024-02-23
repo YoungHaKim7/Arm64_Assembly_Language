@@ -31,6 +31,25 @@
   - ASM Code Lens
     - https://marketplace.visualstudio.com/items?itemName=maziac.asm-code-lens
 
+
+# 네오빔(NeoVim)assembly(asm-lsp)
+- Vim \_ Assembly Highlight Syntax
+```
+:set ft=nasm  " assembly highlight syntax
+```
+- NeoVim(asm-lsp)
+  - https://www.reddit.com/r/neovim/s/XAuQM98VY6
+    - https://github.com/bergercookie/asm-lsp
+      - Using cargo
+        - Install using the cargo package manager, either from crates.io or from github:
+```
+cargo install asm-lsp
+# or to get the latest version from github
+cargo install --git https://github.com/bergercookie/asm-lsp
+```
+
+<hr>
+
 <hr>
 
 - Markdown code block keywords used by Discord
