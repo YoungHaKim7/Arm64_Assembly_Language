@@ -31,6 +31,11 @@ https://rust.godbolt.org/
 - https://en.wikipedia.org/wiki/MacOS_version_history
   - https://github.com/fxcoudert/gfortran-for-macOS/releases
 
+- Darwin(Operating System)
+  - https://en.wikipedia.org/wiki/Darwin_(operating_system)
+- AT&T Unix System V
+  - https://unix.org/what_is_unix/history_timeline.html
+
 <hr>
 
 # xcrun오류 해결 (XCode를 설치해야한다)
