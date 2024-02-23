@@ -73,7 +73,11 @@ git clone https://github.com/ARM9/arm-syntax-vim.git
 
 ```
 au BufNewFile,BufRead *.s,*.S set filetype=arm " arm = armv6/7
+
+au BufNewFile,BufRead *.s,*.S, *.asm set filetype=arm " arm = armv6/7
 ```
+
+
 
 - or add this line at the top or bottom of your assembly file(s):
 
