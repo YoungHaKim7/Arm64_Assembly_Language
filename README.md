@@ -166,7 +166,7 @@ au BufNewFile,BufRead *.s,*.S, *.asm set filetype=arm " arm = armv6/7
 
 https://twitter.com/m_ou_se/status/1590333332012662784/photo/1
 
-# 예재로 어셈블리 익히기(arm)
+# 예제로 어셈블리 익히기(arm assembly)
 
 https://github.com/below/HelloSilicon
 
