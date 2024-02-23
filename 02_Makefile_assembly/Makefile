@@ -1,10 +1,22 @@
+AS = as
+LINKER = ld
+
+SOURCE_ASM = ./src/main.asm
+SOURCE_ASM_OBJ = main.o
+
+TARGET = ./$(TARGET_FOLDER)
+TARGET_FOLDER = target
+LDFLAGS_COMON_MACOS = -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path` -e _start -arch arm64
+
+MACOS_VERSION = -macosx_version_min 14.0.0
+
 r:
-		rm -rf target
-		mkdir target
-		as -o main.o ./src/main.asm
-		ld -macosx_version_min 14.0.0 -o a.out main.o -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path` -e _start -arch arm64
-		mv a.out *.o target/.
-		./target/a.out
+		rm -rf $(TARGET_FOLDER)
+		mkdir $(TARGET_FOLDER)
+		$(AS) -o $(SOURCE_ASM_OBJ) $(SOURCE_ASM)
+		$(LINKER) $(MACOS_VERSION) -o a.out $(SOURCE_ASM_OBJ) $(LDFLAGS_COMON_MACOS)
+		mv *.out *.o $(TARGET_FOLDER)/.
+		./$(TARGET_FOLDER)/a.out
 
 clean:
-		rm -rf target 
+		rm -rf $(TARGET_FOLDER)
