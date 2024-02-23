@@ -2,6 +2,10 @@
 
 https://developer.arm.com/documentation/ddi0487/ak/
 
+- Markdown code block keywords used by Discord
+
+  - https://gist.github.com/alexislours/c7b12c630625db98afbfdf08f7a4ec17
+
 <hr>
 
 # Mara Bos
