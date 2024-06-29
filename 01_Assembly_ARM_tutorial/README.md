@@ -1,3 +1,7 @@
+# 1부-시스템 소프트웨어 개발을 위한 Arm 아키텍처의 구조와 원리
+
+- https://youtube.com/playlist?list=PLRrUisvYoUw_iZKfBH5DSIj-EGhiyUHzp&si=KJzxLtgjlpj7fBym
+
 # Assembly Language Programming with ARM – Full Tutorial for Beginners | freeCodeCamp.org
 
 https://youtu.be/gfmRrPjnEw4?si=h5otLMPp1bS-malE
