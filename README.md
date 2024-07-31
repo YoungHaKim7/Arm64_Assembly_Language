@@ -11,6 +11,7 @@ https://assembly.godbolt.org/
   - https://armasm.com/
 
 - Arm어셈블리 기초
+  - https://github.com/kangtegong/self-learning-cs/blob/main/registers/registers.md
   - https://kyuhyuk.kr/article/raspberry-pi/2019/05/15/ARM-Assembly
 
 - ARM 어셈블리 가이드(ARM Assembly Guide 임베디드(2011. 12. 15. 14:12)
