@@ -1,3 +1,10 @@
+# 예쁜 여자분이 해주니 더 재밌네 ㅋARM Assembly: Lesson 1 (MOV, Exit Syscall) | LaurieWired
+- https://youtu.be/kKtWsuuJEDs?si=SM8qizI94a-T-q4c
+  - 영상 모아보기(https://youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg&si=KW87pJQe1g135pOY)
+
+
+<hr />
+
 # 1부-시스템 소프트웨어 개발을 위한 Arm 아키텍처의 구조와 원리
 
 - https://youtube.com/playlist?list=PLRrUisvYoUw_iZKfBH5DSIj-EGhiyUHzp&si=KJzxLtgjlpj7fBym
