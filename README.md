@@ -170,7 +170,8 @@ au BufNewFile,BufRead *.s,*.S, *.asm set filetype=arm " arm = armv6/7
        <img src="https://pbs.twimg.com/media/FhH-RYzWIAE24_v?format=jpg&name=4096x4096" />
 </p>
 
-https://twitter.com/m_ou_se/status/1590333332012662784/photo/1
+- x로 바뀐 주소(250915) https://x.com/m_ou_se/status/1590333332012662784
+  - 과거 링크 https://twitter.com/m_ou_se/status/1590333332012662784/photo/1
 
 # 예제로 어셈블리 익히기(arm assembly)
 
